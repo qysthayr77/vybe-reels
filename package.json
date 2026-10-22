@@ -1,0 +1,16 @@
+{
+  "name": "vybe-reels-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "once": "node server.js --once",
+    "web": "node server.js --web"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "apify-client": "^2.25.0",
+    "firebase-admin": "^14.5.0",
+    "node-cron": "^4.6.0"
+  }
+}
